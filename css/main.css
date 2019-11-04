@@ -38,12 +38,11 @@ body {
 }
 
 h2 {
-  display: inline-block;
+  display: inline;
   font-weight: 700;
   color: #fff;
   font-size: 4rem;
   background-color: rgba(0, 0, 0, .5);
-  margin: 0;
 }
 
 p {
