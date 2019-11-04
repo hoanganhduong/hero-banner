@@ -1,10 +1,14 @@
 html {
   box-sizing: border-box;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
 }
 
 .img-flex {
@@ -36,9 +40,8 @@ h2 {
   font-weight: 700;
   color: #fff;
   font-size: 4rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, .5);
   margin: 0;
-  padding
 }
 
 p {
