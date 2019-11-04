@@ -11,3 +11,37 @@ html {
   width: 100%;
   display: block;
 }
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  display: block;
+  overflow: hidden;
+}
+
+.content {
+  display: inline-block;
+  position: absolute;
+  max-width: 50em;
+  margin: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  top: 5px;
+  bottom: 5px;
+  padding: 0 1rem;
+}
+
+h2 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding
+}
+
+p {
+  font-style: italic;
+  font-size: 2rem;
+}
