@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -37,6 +38,7 @@ body {
 }
 
 h2 {
+  display: inline;
   font-weight: 700;
   color: #fff;
   font-size: 4rem;
